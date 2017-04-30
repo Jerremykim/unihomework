@@ -5,7 +5,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>94/17</title>
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans400,700|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:700|Raleway" rel="stylesheet">
+
+	
 	<style>
 	@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 	
@@ -49,13 +51,13 @@
   	}
   	
   	.menu {
-  		font-family: 'Noto Sans KR', sans-serif;
   		float: right;
   	}
   	
   	.header .menu .menu_list li{
   		float: left;
-  	} 
+  		font-family: 'Noto Sans KR', sans-serif;
+   	} 
   	
   	.li_1 {
   		margin-left: 25px;
@@ -92,28 +94,30 @@
 		
 		.main_bottom {
 			width: 100px;
-			margin-bottom: 130px;
+			margin-bottom: 150px;
 		}
 		
 		.main_bot_left img {
 		float: left;	
 		}
 		
-		.main_bot_left p {
-			float: right;
-			margin-top: 2px;
+		.more {
+		float: right;
+		margin-top: 2px;
 		}
+		
 		
 		#books {
 			background-image: url(./books.gif);
 			background-size: 100%;
-			background-repeat: no-repeat;
+			padding-top: 50px;
 			
 		}
 		
 		.books_logo {
 			margin-bottom: 80px;
 			font-family: 'Raleway', sans-serif;
+			font-size: 20px;
 		}
 		
 		.books_intro {
@@ -131,6 +135,101 @@
 			margin-bottom: 80px;
 		}
 		
+		.list_logo {
+			font-family: 'Raleway', sans-serif;
+  		font-size: 20px;
+  		margin-bottom: 80px;
+  		padding-top: 40px;
+		}
+		
+		.list_title {
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size: 20px;
+			margin-bottom: 80px;
+		}
+		
+		.list_list {
+			margin-bottom: 280px;
+		}
+		
+		.list_list h6 {
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size: 15px;
+			margin-bottom: 15px;
+		}
+		
+		.list_under {
+			margin-bottom: 40px;
+		}
+		
+		#inbook {
+			background-image: url(./sokji.gif);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			padding-top: 50px;
+			height: 700px;
+		}
+		
+		.inbook_logo {
+			font-family: 'Raleway', sans-serif;
+  		font-size: 20px;
+  		margin-bottom: 60px;
+		}
+		
+		.inbook_inbook {
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size: 20px;
+			margin-bottom: 80px;
+		}
+		
+		.inbook_content {
+			width: 470px;
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size: 15px;
+			line-height: 40px;
+		}
+		
+		.content_bottom {
+			font-family: 'Noto Sans KR', sans-serif;
+			font-size: 18px;
+			line-height: 30px;
+			padding-top: 40px;
+		}
+		
+		#writer {
+			background-image: url(./me.jpg);
+			background-size: 100%;
+			background-repeat: no-repeat;
+			padding-top: 50px;
+			height: 640px;
+		}
+		
+		.writer_logo {
+			font-family: 'Raleway', sans-serif;
+  		font-size: 20px;
+  		margin-bottom: 60px;
+		}
+		
+		.writer_content {
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+		
+		table {
+				font-family: 'Noto Sans KR', sans-serif;
+				font-size: 15px;
+		}
+		
+		td {
+			padding-right: 10px;
+			padding-top: 10px;
+		}
+		
+		iframe {
+			float: right;
+			margin-right: 50px;
+			margin-top: 100px;
+			margin-bottom: 20px;
+		}
 	</style>
 
 
@@ -158,11 +257,10 @@
 		<h2 class="main_right">그가 어떤 사람인지<br/>어떻게 살아왔고<br/>앞으로 어떻게 할 것인지<br/>솔직하게 소개하는 이야기의 시작</h2>
 	</div>
 	
-	<div class="main_bottom">
-		<div class="main_bot_left clearfix">
-			<img src="#">
-			<p class="more">More story</p>
-		</div>
+	<div class="main_bottom clearfix">
+
+			<img src="./down.png" width="30" height="30" alt="down" title="down">
+
 	</div>
 	
 	
@@ -194,21 +292,77 @@
 	</div>
 	
 	<div id="book_list">
-		
+		<h1 class="list_logo">94/17</h1>
+		<div class="list_title">
+			<h2>목차</h2>
+		</div>
+		<div class="list_list">
+			
+				<h6>어린시절, 94 - 00</h6>
+				<h6>초등학교, 01 - 06</h6>
+				<h6>중학교, 07 - 09</h6>
+				<h6>고등학교, 10 - 12</h6>
+				<h6>지금까지, 13 - 17</h6>
+		</div>
+		<h5 class="list_under"><a href="./list.html">자세한 이야기가 궁금하다면</a></h5>
 	</div>
 	
 	<div id="inbook">
-		
+		<h1 class="inbook_logo">94/17</h1>
+		<div class="inbook_title">
+			<h2 class="inbook_inbook">책 속에서</h2>
+			<div class="inbook_content">
+				<h2>"열심히 하는 것이 중요한게 아니라,<br/>잘하는 것이 중요한거에요."</h2>
+			<div class="content_bottom">
+				<h6>184p,<br/>
+				디자인과에 입학했더니 정말 열심히 하는 사람들도 교수님한테 많이 혼나는 모습을 보았습니다. 그러면서 누군가 지나가듯이 얘길 해주었어요.
+				 "열심히 하는게 중요한게 아니야. 잘하는게 중요한거지."<br/>
+				 이 말을 듣는 순간 머리를 한 대 맞은 것 같았어요. 많은 사람들이 열심히만 하면 되는 걸로 알고있는데, 그게 아니라는 걸 알면서도 열심히 사는 것에만 집중하고 있더라구요.
+				 그래서 다른 선배들을 보면서 느낀 것이 방향 설정을 단기간이든 장기간이든 꼭 설정한 후에 그 목표를 이루기 위해 달리는 것이 맞는 방향이라고 생각했어요.</h6>
+			</div>
+			</div>
+			
+		</div>
 	</div>
 	
 	<div id="writer">
+		<h1 class="writer_logo">94/17</h1>
 		
+		<div class="writer_content clearfix">
+			<h2>저자 소개</h2>
+			<div class="content_bottom">
+			<h6>1994 06 06 강원도 강릉 출생<br/>
+			2001 강릉초등학교 입학<br/>
+			2007 솔올중학교 입학<br/>
+			2009 강릉고등학교 입학<br/>
+			2010 입시 미술학원 등록<br/>
+			2012 서울시립대학교 산업디자인학과 시각디자인전공 입학<br/>
+			2015 23사단 보병 입대<br/>
+			2017 시각디자인 전공 3학년 복학 후 재학중</h6>
+			</div>
+			
+			<iframe name="music" src="" width="290" height="100"></iframe>
+		</div>
 	</div>
 	
-	<div class="footer">
-		
-		
-	</div>
+	
+
+	<table border="0">
+		<tr>
+			<th align="left">
+				<h5>CONTACT</h5>
+			</th>
+		</tr>
+
+		<tr>
+			<td width="70"><a href="./music.html" target="music">BGM</a></td>
+			<td width="70"><a href="https://www.facebook.com/jerremy.kim">facebook/jerremykim</a></td>
+			<td width="70"><a href="https://www.instagram.com/jerrem_jerrem/">instagram/jerrem_jerrememail/jerremy8686@gmail.com</a></td>
+			<td width="70">email/jerremy8686@gmail.com</td>
+			<td width="140"></td>
+			<td>	&copy; All rights reserved to JERREMY KIM</td>
+		</tr>
+	</table>
 	
 	</div>
 	
